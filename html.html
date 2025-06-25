@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  	 <link rel="stylesheet" href="css.css">
+  <meta charset="UTF-8">
+  <title>Roll Color Dice, 6-sided Color Dice</title>
+  </head>
+<body>
+  	 <script src="homepage.js"></script>  
+ 
+  <audio id="roll-sound" src="audio.mp3"></audio>
+
+  <!-- 🎥 Fullscreen video -->
+  <div id="video-wrapper">
+    <video id="roll-video" autoplay muted playsinline></video>
+  </div>
+
+  <!-- 🎲 Top image -->
+  <img src="dice bg ontop.png" alt="Top Image" class="top-image">
+
+  <div class="dice-container">
+    <img src="roll-title.png" alt="ROLL COLOR DICE" class="title-image">
+
+    <div class="dropdowns">
+      <img src="4dice.png" alt="4 Dice" class="dice-option">
+      <img src="colordice.png" alt="Color Dice" class="dice-option">
+    </div>
+
+    <div class="dice-row">
+      <div class="dice orange">•</div>
+      <div class="dice orange">•</div>
+      <div class="dice purple">•</div>
+      <div class="dice green">•</div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+
+    <img src="roll again.png" alt="Roll Again" class="roll-button-img">
+
+    <div class="possible-colors-container">
+      <p class="possible-colors-text">
+        Possible colors are: 
+        <button class="color-button" style="color: red;" data-color="red">Red</button>, 
+        <button class="color-button" style="color: orange;" data-color="orange">Orange</button>, 
+        <button class="color-button" style="color: gold;" data-color="yellow">Yellow</button>, 
+        <button class="color-button" style="color: green;" data-color="green">Green</button>, 
+        <button class="color-button" style="color: blue;" data-color="blue">Blue</button> and 
+        <button class="color-button" style="color: purple;" data-color="purple">Purple</button>.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
